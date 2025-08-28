@@ -1,54 +1,4 @@
-/*
-  # Career Management System Database Schema
-// wiill change
-  1. New Tables
-    - `admin_users`
-      - `id` (uuid, primary key)
-      - `email` (text, unique)
-      - `password_hash` (text)
-      - `role` (text, default 'admin')
-      - `created_at` (timestamp)
-      - `updated_at` (timestamp)
-    
-    - `job_postings`
-      - `id` (uuid, primary key)
-      - `title` (text)
-      - `department` (text)
-      - `type` (text)
-      - `location` (text)
-      - `experience` (text)
-      - `salary` (text, optional)
-      - `description` (text)
-      - `responsibilities` (text)
-      - `requirements` (text)
-      - `deadline` (date)
-      - `status` (text, default 'Draft')
-      - `is_visible` (boolean, default true)
-      - `created_at` (timestamp)
-      - `updated_at` (timestamp)
-    
-    - `applicants`
-      - `id` (uuid, primary key)
-      - `job_id` (uuid, foreign key)
-      - `name` (text)
-      - `email` (text)
-      - `phone` (text, optional)
-      - `resume_url` (text)
-      - `cover_letter` (text, optional)
-      - `status` (text, default 'Applied')
-      - `notes` (text, optional)
-      - `applied_at` (timestamp)
-      - `updated_at` (timestamp)
 
-  2. Storage
-    - Create `career-files` bucket for resume uploads
-
-  3. Security
-    - Enable RLS on all tables
-    - Add policies for admin access to all tables
-    - Add public read access to active job postings
-    - Add public insert access to applicants table
-*/
 
 -- Create admin_users table
 CREATE TABLE IF NOT EXISTS admin_users (
@@ -98,11 +48,6 @@ CREATE TABLE IF NOT EXISTS applicants (
 INSERT INTO storage.buckets (id, name, public) 
 VALUES ('career-files', 'career-files', true)
 ON CONFLICT (id) DO NOTHING;
-
--- Enable Row Level Security
-ALTER TABLE admin_users ENABLE ROW LEVEL SECURITY;
-ALTER TABLE job_postings ENABLE ROW LEVEL SECURITY;
-ALTER TABLE applicants ENABLE ROW LEVEL SECURITY;
 
 -- Admin users policies
 CREATE POLICY "Admin users can read own data"
