@@ -324,7 +324,7 @@ const JobForm = ({ job, onSuccess, onCancel }: JobFormProps) => {
                     <FormLabel className="text-base">
                       Visible on Career Page
                     </FormLabel>
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-sm text-gray-800">
                       Make this job posting visible to candidates on the public career page
                     </div>
                   </div>

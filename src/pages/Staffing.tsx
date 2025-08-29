@@ -61,7 +61,7 @@ const Staffing = () => {
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Your Workforce, <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Our Expertise</span>
             </h1>
-            <p className="text-xl text-muted-foreground mt-4 max-w-2xl">
+            <p className="text-xl text-gray-800 mt-4 max-w-2xl">
               Build high-performing teams with speed, precision, and compliance—on-site, offshore, or hybrid.
             </p>
             <div className="mt-8">
@@ -81,7 +81,7 @@ const Staffing = () => {
         <div ref={aboutRef} className={`container mx-auto px-4 grid lg:grid-cols-2 gap-10 items-center fade-up ${aboutVisible ? 'visible' : ''}`}>
           <div>
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">About Our Staffing</h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-gray-800">
               We combine domain expertise with a process-led approach to deliver talent when and where you need it. From project-based spikes to ongoing team expansion, our models keep you flexible, compliant, and future-ready.
             </p>
           </div>
@@ -91,7 +91,7 @@ const Staffing = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl">{s.value}</CardTitle>
                 </CardHeader>
-                <CardContent className="text-muted-foreground">{s.label}</CardContent>
+                <CardContent className="text-gray-800">{s.label}</CardContent>
               </Card>
             ))}
           </div>
@@ -120,7 +120,7 @@ const Staffing = () => {
                       </div>
                       <CardTitle className="text-xl text-foreground group-hover:text-primary transition-colors">{s.title}</CardTitle>
                     </CardHeader>
-                    <CardContent className="text-muted-foreground">{s.description}</CardContent>
+                    <CardContent className="text-gray-800">{s.description}</CardContent>
                   </Card>
                 </Link>
               );
@@ -150,7 +150,7 @@ const Staffing = () => {
                 <CardHeader>
                   <CardTitle className="text-foreground">{w.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="text-muted-foreground">{w.desc}</CardContent>
+                <CardContent className="text-gray-800">{w.desc}</CardContent>
               </Card>
             ))}
           </div>

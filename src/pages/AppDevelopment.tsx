@@ -122,7 +122,7 @@ const AppDevelopment = () => {
                   Custom Software &
                   <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Application Solutions</span>
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
+                <p className="text-xl text-gray-800 leading-relaxed">
                   At MangosOrange, we offer reasonably priced custom software services that are perfectly "fit" with your needs. We design and build technologies to produce decisive outcomes that immediately increase your ROI following a FREE examination of your particular demands and business processes.
                 </p>
                 <div className="space-y-4">
@@ -168,7 +168,7 @@ const AppDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Comprehensive Application Development Services
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We offer solutions to support, bolster, and manage an application portfolio with a variety of development options in both established and cutting-edge technologies.
             </p>
           </div>
@@ -192,14 +192,14 @@ const AppDevelopment = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {service.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {service.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <li key={idx} className="flex items-center gap-2 text-sm text-gray-800">
                           <CheckCircle className="w-4 h-4 text-primary" />
                           {feature}
                         </li>
@@ -221,7 +221,7 @@ const AppDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Multi-Platform Application Development
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We provide clients with a variety of development options in both established and cutting-edge technologies across all major platforms.
             </p>
           </div>
@@ -245,7 +245,7 @@ const AppDevelopment = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {platform.name}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed mb-4">
+                    <CardDescription className="text-gray-800 leading-relaxed mb-4">
                       {platform.description}
                     </CardDescription>
                     <div className="flex flex-wrap gap-2 justify-center">
@@ -271,7 +271,7 @@ const AppDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               How We Work
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We make sure that existing development team's knowledge is seamlessly transferred. We collaborate with client's business and IT teams to ensure smooth transition of functional and technological improvements.
             </p>
           </div>
@@ -300,14 +300,14 @@ const AppDevelopment = () => {
                     <CardTitle className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
                       {process.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed text-sm">
+                    <CardDescription className="text-gray-800 leading-relaxed text-sm">
                       {process.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-1">
                       {process.details.map((detail, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-xs text-muted-foreground">
+                        <li key={idx} className="flex items-center gap-2 text-xs text-gray-800">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
                           {detail}
                         </li>
@@ -329,7 +329,7 @@ const AppDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
               Lasting Connections & Continuous Support
             </h2>
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-xl text-gray-800 leading-relaxed mb-8">
               We create and preserve lasting connections with our customers. We promise to provide you with application solutions that are incredibly useful. We can manage various domains from various sectors thanks to our capabilities with dedicated Project Coordinators providing comprehensive project information.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -338,21 +338,21 @@ const AppDevelopment = () => {
                   <Clock className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">24x7 Helpdesk</h3>
-                <p className="text-sm text-muted-foreground">Round-the-clock support with dedicated helpdesk for immediate assistance</p>
+                <p className="text-sm text-gray-800">Round-the-clock support with dedicated helpdesk for immediate assistance</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-glow rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <TrendingUp className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Continuous Improvement</h3>
-                <p className="text-sm text-muted-foreground">Guaranteed productivity improvement through established strategies and innovations</p>
+                <p className="text-sm text-gray-800">Guaranteed productivity improvement through established strategies and innovations</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-glow rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Quality Assurance</h3>
-                <p className="text-sm text-muted-foreground">Data integrity monitoring, performance tracking, and documentation maintenance</p>
+                <p className="text-sm text-gray-800">Data integrity monitoring, performance tracking, and documentation maintenance</p>
               </div>
             </div>
           </div>
@@ -366,7 +366,7 @@ const AppDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground">
               Ready to Build Your Custom Application?
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-800">
               Transform your ideas into powerful applications that increase your ROI. Complete our request information form and our consulting representative will get in touch with you shortly for a FREE examination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -380,15 +380,15 @@ const AppDevelopment = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 pt-12 border-t border-border/50">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary mb-2">ROI+</div>
-                <div className="text-sm text-muted-foreground">Immediate Bottom Line Increase</div>
+                <div className="text-sm text-gray-800">Immediate Bottom Line Increase</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary mb-2">FREE</div>
-                <div className="text-sm text-muted-foreground">Business Process Examination</div>
+                <div className="text-sm text-gray-800">Business Process Examination</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">Technical Support Available</div>
+                <div className="text-sm text-gray-800">Technical Support Available</div>
               </div>
             </div>
           </div>

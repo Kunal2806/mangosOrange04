@@ -55,7 +55,7 @@ const StaffingSection = () => {
             Find the Right
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Talent</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 max-w-3xl mx-auto">
             Connect with pre-vetted professionals who fit your technical requirements and company culture. 
             From contract specialists to permanent team members.
           </p>
@@ -80,14 +80,14 @@ const StaffingSection = () => {
                   <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                     {service.title}
                   </CardTitle>
-                  <CardDescription className="text-muted-foreground leading-relaxed">
+                  <CardDescription className="text-gray-800 leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 mb-6">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <li key={idx} className="flex items-center gap-2 text-sm text-gray-800">
                         <CheckCircle className="w-4 h-4 text-primary" />
                         {feature}
                       </li>
@@ -114,21 +114,21 @@ const StaffingSection = () => {
             <div className="flex items-center justify-center gap-8 mb-6">
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary">500+</div>
-                <div className="text-sm text-muted-foreground">Professionals Placed</div>
+                <div className="text-sm text-gray-800">Professionals Placed</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-secondary">48hrs</div>
-                <div className="text-sm text-muted-foreground">Average Time to Match</div>
+                <div className="text-sm text-gray-800">Average Time to Match</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground">Client Retention Rate</div>
+                <div className="text-sm text-gray-800">Client Retention Rate</div>
               </div>
             </div>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Ready to Build Your Dream Team?
             </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            <p className="text-gray-800 mb-6 max-w-2xl mx-auto">
               Let's discuss your staffing needs and find the perfect candidates for your organization.
             </p>
             <Link to="/staffing">

@@ -82,7 +82,7 @@ const ServicesSection = () => {
             Comprehensive IT Solutions &
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Service Excellence</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 max-w-3xl mx-auto">
             We are an Integrated Service Provider Company specializing in cutting-edge IT solutions and comprehensive business services. From custom software development to staffing solutions, we deliver innovative technologies and quality services that drive business growth.
           </p>
         </div>
@@ -106,14 +106,14 @@ const ServicesSection = () => {
                   <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                     {service.title}
                   </CardTitle>
-                  <CardDescription className="text-muted-foreground leading-relaxed">
+                  <CardDescription className="text-gray-800 leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 mb-6">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <li key={idx} className="flex items-center gap-2 text-sm text-gray-800">
                         <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
                         {feature}
                       </li>

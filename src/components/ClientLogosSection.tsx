@@ -224,7 +224,7 @@ const ClientLogosSection = () => {
           <div className={`w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6 rounded-full transition-all duration-700 delay-300 ${
             isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-75'
           }`} />
-          <p className={`text-muted-foreground max-w-2xl mx-auto text-lg transition-all duration-700 delay-400 ${
+          <p className={`text-gray-800 max-w-2xl mx-auto text-lg transition-all duration-700 delay-400 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
           }`}>
             From startups to Fortune 500 companies, organizations worldwide choose MangosOrange 

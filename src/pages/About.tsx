@@ -82,7 +82,7 @@ const About = () => {
                 Where Technology 
                 <span className="text-primary"> Meets Talent</span>
               </h1>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-gray-800 mb-8">
                 At MangosOrange, we connect innovative businesses with top-tier tech talent and deliver tailored IT solutions that make a difference. We're not just another agency — we're your growth partner.
               </p>
             </div>
@@ -111,7 +111,7 @@ const About = () => {
                     <item.icon className="w-12 h-12 text-primary mx-auto" />
                   </div>
                   <h3 className="text-xl font-semibold mb-4">{item.title}</h3>
-                  <p className="text-muted-foreground">{item.description}</p>
+                  <p className="text-gray-800">{item.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -130,7 +130,7 @@ const About = () => {
                 {keyStrengths.map((strength, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                    <p className="text-muted-foreground">{strength}</p>
+                    <p className="text-gray-800">{strength}</p>
                   </div>
                 ))}
               </div>
@@ -139,7 +139,7 @@ const About = () => {
             {/* Our Qualities */}
             <div>
               <h2 className="text-3xl font-bold mb-8">Our Qualities</h2>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-gray-800 leading-relaxed">
                 Our Qualities Are The Texture Of CoreB Systems & Services. They Tie Us Together Paying Little Mind To Where Or How We Work And Position Us To Prevail On Our Change Venture. Are The Texture Of CoreB Systems & Services. They Tie Us Together Paying Little Heed To Where Or How We Work And Position Us To Prevail On Our Change Venture.
               </p>
             </div>
@@ -161,7 +161,7 @@ const About = () => {
                 {visionMission.vision.points.map((point, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                    <p className="text-muted-foreground">{point}</p>
+                    <p className="text-gray-800">{point}</p>
                   </div>
                 ))}
               </div>
@@ -177,7 +177,7 @@ const About = () => {
                 {visionMission.mission.points.map((point, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                    <p className="text-muted-foreground">{point}</p>
+                    <p className="text-gray-800">{point}</p>
                   </div>
                 ))}
               </div>

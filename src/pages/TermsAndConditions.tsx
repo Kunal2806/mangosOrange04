@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
               Terms & Conditions
             </h1>
-            <p className="text-muted-foreground">
+            <p className="text-gray-800">
               Last modified on 01st Jan, 2024
             </p>
           </div>
@@ -98,7 +98,7 @@ const TermsAndConditions = () => {
                 <strong>Address:</strong> B-47, 3rd Floor, Sector-64, Noida, 201 301
               </p>
 
-              <p className="text-sm text-muted-foreground mt-8">
+              <p className="text-sm text-gray-800 mt-8">
                 For more information, please visit our <a href="/contact" className="text-primary hover:underline">contact page</a>.
               </p>
             </div>

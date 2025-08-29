@@ -108,7 +108,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
                   className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                     isActive
                       ? 'bg-primary text-primary-foreground'
-                      : 'text-muted-foreground hover:text-foreground hover:bg-accent'
+                      : 'text-gray-800 hover:text-foreground hover:bg-accent'
                   }`}
                   onClick={() => setSidebarOpen(false)}
                 >
@@ -129,7 +129,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
                 <div className="text-sm font-medium text-foreground truncate">
                   {user.name}
                 </div>
-                <div className="text-xs text-muted-foreground truncate">
+                <div className="text-xs text-gray-800 truncate">
                   {user.role}
                 </div>
               </div>
@@ -137,7 +137,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
             <Button
               variant="ghost"
               size="sm"
-              className="w-full justify-start text-muted-foreground hover:text-foreground"
+              className="w-full justify-start text-gray-800 hover:text-foreground"
               onClick={handleSignOut}
             >
               <LogOut className="w-4 h-4 mr-2" />
@@ -167,7 +167,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="text-sm text-muted-foreground">
+            <span className="text-sm text-gray-800">
               Welcome, {user.name}
             </span>
           </div>

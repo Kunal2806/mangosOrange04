@@ -147,7 +147,7 @@ const CustomSoftware = () => {
                 Enterprise Custom Software with
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> 9+ Years Expertise</span>
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-xl text-gray-800 leading-relaxed">
                 MangosOrange delivers enterprise-grade custom software solutions with proven expertise across 200+ successful projects. From AI-powered business intelligence to legacy system modernization, we provide complete lifecycle solutions that transform your business operations and drive measurable growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -167,7 +167,7 @@ const CustomSoftware = () => {
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-secondary rounded-full animate-ping"></div>
                   </div>
                   <h3 className="text-2xl font-bold text-foreground">Enterprise Ready</h3>
-                  <p className="text-muted-foreground">Complete Lifecycle Solutions</p>
+                  <p className="text-gray-800">Complete Lifecycle Solutions</p>
                   <div className="flex justify-center gap-4">
                     <div className="w-3 h-3 bg-primary/60 rounded-full animate-bounce"></div>
                     <div className="w-3 h-3 bg-primary/60 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
@@ -190,7 +190,7 @@ const CustomSoftware = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Custom Software Solutions
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Comprehensive software development services designed for your unique business requirements
             </p>
           </div>
@@ -211,14 +211,14 @@ const CustomSoftware = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {service.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {service.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3 mb-6">
                       {service.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center gap-3 text-sm text-muted-foreground">
+                        <div key={idx} className="flex items-center gap-3 text-sm text-gray-800">
                           <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
                           {feature}
                         </div>
@@ -251,7 +251,7 @@ const CustomSoftware = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Structured Development Approach
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Our proven methodology ensures successful project delivery from concept to deployment
             </p>
           </div>
@@ -277,7 +277,7 @@ const CustomSoftware = () => {
                     <CardTitle className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                       {process.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed mb-4">
+                    <CardDescription className="text-gray-800 leading-relaxed mb-4">
                       {process.description}
                     </CardDescription>
                     <div className="text-sm text-primary font-medium">
@@ -301,7 +301,7 @@ const CustomSoftware = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Why Choose Our Custom Software Solutions?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We create and preserve lasting connections with our customers through comprehensive solutions
             </p>
           </div>
@@ -320,7 +320,7 @@ const CustomSoftware = () => {
                       <Icon className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="text-lg font-bold text-foreground mb-2">{benefit.title}</h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed mb-3">{benefit.description}</p>
+                    <p className="text-gray-800 text-sm leading-relaxed mb-3">{benefit.description}</p>
                     <div className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded">{benefit.metric}</div>
                   </CardContent>
                 </Card>
@@ -337,7 +337,7 @@ const CustomSoftware = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Industries We Serve
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We manage various domains from diverse sectors with dynamic websites and web applications using W3C Standards
             </p>
           </div>
@@ -361,7 +361,7 @@ const CustomSoftware = () => {
                           <h3 className="text-lg font-bold text-foreground">{industry.name}</h3>
                           <span className="text-xs font-medium text-secondary bg-secondary/10 px-2 py-1 rounded">{industry.projects}</span>
                         </div>
-                        <p className="text-sm text-muted-foreground">{industry.specialty}</p>
+                        <p className="text-sm text-gray-800">{industry.specialty}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -380,7 +380,7 @@ const CustomSoftware = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Cutting-Edge Technology Stack
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-gray-800 mb-8">
                 We leverage the latest technologies and frameworks to build scalable, secure, and future-ready applications that drive business growth.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
@@ -430,7 +430,7 @@ const CustomSoftware = () => {
               <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
                 Customer Delight Approach
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-gray-800 mb-8">
                 We develop dynamic websites and web applications with W3C Standards and Client Hints Technology. Each project gets a dedicated Project Coordinator providing comprehensive information on tasks, timelines, and deliverables.
               </p>
             </div>
@@ -445,7 +445,7 @@ const CustomSoftware = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Comprehensive Support & Maintenance
             </h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               We promise to provide incredibly useful online solutions spanning the entire development and design process with ongoing support.
             </p>
           </div>
@@ -458,7 +458,7 @@ const CustomSoftware = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Dedicated Project Coordination</h3>
-                  <p className="text-muted-foreground">Each project gets a dedicated coordinator for comprehensive project updates and timeline management.</p>
+                  <p className="text-gray-800">Each project gets a dedicated coordinator for comprehensive project updates and timeline management.</p>
                 </div>
               </div>
               
@@ -468,7 +468,7 @@ const CustomSoftware = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">W3C Standards Compliance</h3>
-                  <p className="text-muted-foreground">All our solutions follow W3C standards and implement Client Hints Technology for optimal performance.</p>
+                  <p className="text-gray-800">All our solutions follow W3C standards and implement Client Hints Technology for optimal performance.</p>
                 </div>
               </div>
               
@@ -478,7 +478,7 @@ const CustomSoftware = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Ongoing Support & Maintenance</h3>
-                  <p className="text-muted-foreground">Annual maintenance and consulting services to ensure your software continues to perform optimally.</p>
+                  <p className="text-gray-800">Annual maintenance and consulting services to ensure your software continues to perform optimally.</p>
                 </div>
               </div>
             </div>
@@ -491,7 +491,7 @@ const CustomSoftware = () => {
                     <div className="absolute -top-1 -right-1 w-4 h-4 bg-secondary rounded-full animate-pulse"></div>
                   </div>
                   <h3 className="text-2xl font-bold text-foreground">Innovation Driven</h3>
-                  <p className="text-muted-foreground">Complete Development Solutions</p>
+                  <p className="text-gray-800">Complete Development Solutions</p>
                 </div>
               </div>
             </div>

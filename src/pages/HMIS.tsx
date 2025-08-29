@@ -188,7 +188,7 @@ const HMIS = () => {
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
               Comprehensive Healthcare Management
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Streamline every aspect of your healthcare operations with our integrated platform
             </p>
           </div>
@@ -209,7 +209,7 @@ const HMIS = () => {
                   <h3 className="text-xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors duration-300">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-gray-800 leading-relaxed">
                     {feature.description}
                   </p>
                 </CardContent>
@@ -226,7 +226,7 @@ const HMIS = () => {
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-8">
               See HMIS in Action
             </h2>
-            <p className="text-xl text-muted-foreground mb-12">
+            <p className="text-xl text-gray-800 mb-12">
               Watch how our platform transforms healthcare operations
             </p>
             
@@ -239,7 +239,7 @@ const HMIS = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent rounded-2xl flex items-end p-8">
                 <div className="text-left">
                   <h3 className="text-2xl font-bold text-foreground mb-2">Interactive Demo</h3>
-                  <p className="text-muted-foreground">See how easy it is to manage your hospital operations</p>
+                  <p className="text-gray-800">See how easy it is to manage your hospital operations</p>
                 </div>
               </div>
             </div>
@@ -259,7 +259,7 @@ const HMIS = () => {
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
               Measurable Results for Your Hospital
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Join hundreds of healthcare providers already transforming their operations
             </p>
           </div>
@@ -278,7 +278,7 @@ const HMIS = () => {
                 </div>
                 <div className="text-4xl font-bold text-primary mb-2">{benefit.stat}</div>
                 <h3 className="text-xl font-bold text-foreground mb-4">{benefit.title}</h3>
-                <p className="text-muted-foreground">{benefit.description}</p>
+                <p className="text-gray-800">{benefit.description}</p>
               </div>
             ))}
           </div>
@@ -297,7 +297,7 @@ const HMIS = () => {
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
               Trusted by Healthcare Leaders
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               See what healthcare professionals are saying about our HMIS platform
             </p>
           </div>
@@ -317,12 +317,12 @@ const HMIS = () => {
                       <Star key={i} className="w-5 h-5 text-primary fill-current" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground italic mb-6 leading-relaxed">
+                  <p className="text-gray-800 italic mb-6 leading-relaxed">
                     "{testimonial.content}"
                   </p>
                   <div>
                     <div className="font-bold text-foreground">{testimonial.name}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                    <div className="text-sm text-gray-800">{testimonial.role}</div>
                     <div className="text-sm text-primary font-medium">{testimonial.hospital}</div>
                   </div>
                 </CardContent>
@@ -339,7 +339,7 @@ const HMIS = () => {
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-8">
               Built on Modern Technology
             </h2>
-            <p className="text-xl text-muted-foreground mb-12">
+            <p className="text-xl text-gray-800 mb-12">
               Our HMIS platform leverages cutting-edge technology for reliability and scalability
             </p>
             
@@ -353,7 +353,7 @@ const HMIS = () => {
                     <Database className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="font-bold text-foreground mb-2">{tech.name}</h3>
-                  <p className="text-sm text-muted-foreground">{tech.description}</p>
+                  <p className="text-sm text-gray-800">{tech.description}</p>
                 </div>
               ))}
             </div>
@@ -404,7 +404,7 @@ const HMIS = () => {
               ✕ Close
             </Button>
             <div className="aspect-video bg-muted rounded-2xl flex items-center justify-center">
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 <video
                   src="/HMIS_Platform_Video_Creation_Request.mp4" // put your video in public/videos or replace with a URL
                   autoPlay

@@ -21,7 +21,7 @@ const CTASection = () => {
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Amazing Together</span>
             </h2>
             
-            <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 mb-12 max-w-3xl mx-auto">
               Whether you need top tech talent or cutting-edge IT solutions, MangosOrange is here to help. 
               Get in touch today and discover how we can accelerate your success.
             </p>
@@ -36,7 +36,7 @@ const CTASection = () => {
             >
               <Users className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-4">Staffing Solutions</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-gray-800 mb-6">
                 Need skilled developers, DevOps engineers, or tech leaders? We'll find the perfect fit for your team.
               </p>
               <Link to="/staffing">
@@ -55,7 +55,7 @@ const CTASection = () => {
             >
               <Zap className="w-12 h-12 text-secondary mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-4">IT Services</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-gray-800 mb-6">
                 Transform your technology with cloud solutions, security, and digital transformation expertise.
               </p>
               <Link to="/it-services">
@@ -74,7 +74,7 @@ const CTASection = () => {
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
               Not Sure Where to Start?
             </h3>
-            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-gray-800 mb-8 max-w-2xl mx-auto">
               Book a free consultation with our experts. We'll discuss your challenges and 
               recommend the best approach for your specific needs.
             </p>
@@ -101,10 +101,10 @@ const CTASection = () => {
             </div>
 
             <div className="mt-8 pt-8 border-t border-border/50">
-              <p className="text-sm text-muted-foreground mb-4">
+              <p className="text-sm text-gray-800 mb-4">
                 Quick response guaranteed • Free consultation • No commitment required
               </p>
-              <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
+              <div className="flex items-center justify-center gap-6 text-sm text-gray-800">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                   <span>Available Now</span>

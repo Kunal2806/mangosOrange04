@@ -21,15 +21,15 @@ const ManagedServices = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-primary" />
-                  <span className="text-lg text-muted-foreground">24/7 monitoring and support</span>
+                  <span className="text-lg text-gray-800">24/7 monitoring and support</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-primary" />
-                  <span className="text-lg text-muted-foreground">Cost optimization and management</span>
+                  <span className="text-lg text-gray-800">Cost optimization and management</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-primary" />
-                  <span className="text-lg text-muted-foreground">Security and compliance management</span>
+                  <span className="text-lg text-gray-800">Security and compliance management</span>
                 </div>
               </div>
               <Link to="/contact">
@@ -58,7 +58,7 @@ const ManagedServices = () => {
                 <Monitor className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-4">24/7 Monitoring & Support</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Round-the-clock monitoring of your cloud infrastructure with proactive issue detection and resolution.
               </p>
             </div>
@@ -68,7 +68,7 @@ const ManagedServices = () => {
                 <DollarSign className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Cost Optimization & Management</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Continuous cost analysis and optimization to ensure you get maximum value from your cloud investment.
               </p>
             </div>
@@ -78,7 +78,7 @@ const ManagedServices = () => {
                 <Shield className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Security & Compliance Management</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Comprehensive security monitoring and compliance management to protect your data and meet regulatory requirements.
               </p>
             </div>
@@ -93,28 +93,28 @@ const ManagedServices = () => {
                   <Clock className="w-8 h-8 text-primary" />
                 </div>
                 <h4 className="font-semibold text-lg mb-2">24/7 Operations</h4>
-                <p className="text-muted-foreground">Continuous monitoring and support</p>
+                <p className="text-gray-800">Continuous monitoring and support</p>
               </div>
               <div className="text-center animate-fade-in" style={{animationDelay: '0.1s'}}>
                 <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <HeadphonesIcon className="w-8 h-8 text-primary" />
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Expert Support</h4>
-                <p className="text-muted-foreground">Access to cloud specialists</p>
+                <p className="text-gray-800">Access to cloud specialists</p>
               </div>
               <div className="text-center animate-fade-in" style={{animationDelay: '0.2s'}}>
                 <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Settings className="w-8 h-8 text-primary" />
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Performance Tuning</h4>
-                <p className="text-muted-foreground">Optimize system performance</p>
+                <p className="text-gray-800">Optimize system performance</p>
               </div>
               <div className="text-center animate-fade-in" style={{animationDelay: '0.3s'}}>
                 <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-primary" />
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Security Updates</h4>
-                <p className="text-muted-foreground">Regular security patches</p>
+                <p className="text-gray-800">Regular security patches</p>
               </div>
             </div>
           </div>
@@ -127,42 +127,42 @@ const ManagedServices = () => {
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Reduced Operational Burden</h4>
-                  <p className="text-muted-foreground">Focus on your core business while we handle your cloud infrastructure management.</p>
+                  <p className="text-gray-800">Focus on your core business while we handle your cloud infrastructure management.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.1s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Proactive Monitoring</h4>
-                  <p className="text-muted-foreground">Identify and resolve issues before they impact your business operations.</p>
+                  <p className="text-gray-800">Identify and resolve issues before they impact your business operations.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.2s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Cost Efficiency</h4>
-                  <p className="text-muted-foreground">Optimize costs through continuous monitoring and resource management.</p>
+                  <p className="text-gray-800">Optimize costs through continuous monitoring and resource management.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.3s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Enhanced Security</h4>
-                  <p className="text-muted-foreground">Comprehensive security management and compliance monitoring.</p>
+                  <p className="text-gray-800">Comprehensive security management and compliance monitoring.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.4s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Scalable Solutions</h4>
-                  <p className="text-muted-foreground">Scale your infrastructure management as your business grows.</p>
+                  <p className="text-gray-800">Scale your infrastructure management as your business grows.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.5s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Expert Team</h4>
-                  <p className="text-muted-foreground">Access to certified cloud professionals and specialists.</p>
+                  <p className="text-gray-800">Access to certified cloud professionals and specialists.</p>
                 </div>
               </div>
             </div>
@@ -175,7 +175,7 @@ const ManagedServices = () => {
         <div className="container mx-auto text-center">
           <Users className="w-16 h-16 mx-auto mb-6 text-primary" />
           <h2 className="text-4xl font-bold mb-6">Let Us Manage Your Cloud</h2>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
             Focus on growing your business while we take care of your cloud infrastructure with our comprehensive managed services.
           </p>
           <Link to="/contact">

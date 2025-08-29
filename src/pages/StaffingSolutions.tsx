@@ -179,7 +179,7 @@ const StaffingSolutions = () => {
                 Tailored for Your Industry
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-2xl mx-auto">
               Empowering your workforce with top-tier talent – on time, every time.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -206,7 +206,7 @@ const StaffingSolutions = () => {
                   Custom Workforce Solutions
                   <span className="block text-primary">Across All Levels</span>
                 </h2>
-                <div className="space-y-4 text-lg text-muted-foreground">
+                <div className="space-y-4 text-lg text-gray-800">
                   <p>
                     We provide qualified and experienced professionals capable of driving your business growth. From contractual placements to permanent hires, we handle all your staffing needs.
                   </p>
@@ -218,11 +218,11 @@ const StaffingSolutions = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <div className="text-2xl font-bold text-primary">500+</div>
-                  <div className="text-sm text-muted-foreground">Professionals Placed</div>
+                  <div className="text-sm text-gray-800">Professionals Placed</div>
                 </div>
                 <div className="space-y-2">
                   <div className="text-2xl font-bold text-secondary">48hrs</div>
-                  <div className="text-sm text-muted-foreground">Average Turnaround</div>
+                  <div className="text-sm text-gray-800">Average Turnaround</div>
                 </div>
               </div>
             </div>
@@ -247,7 +247,7 @@ const StaffingSolutions = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               How We Work
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-2xl mx-auto">
               Our streamlined 5-step process ensures you get the right talent quickly and efficiently
             </p>
           </div>
@@ -272,7 +272,7 @@ const StaffingSolutions = () => {
                     <CardTitle className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
                       {step.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed text-sm">
+                    <CardDescription className="text-gray-800 leading-relaxed text-sm">
                       {step.description}
                     </CardDescription>
                   </CardHeader>
@@ -312,7 +312,7 @@ const StaffingSolutions = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {benefit.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {benefit.description}
                     </CardDescription>
                   </CardHeader>
@@ -331,7 +331,7 @@ const StaffingSolutions = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Industries We Serve
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-2xl mx-auto">
               Specialized staffing solutions across diverse sectors and industries
             </p>
           </div>
@@ -352,7 +352,7 @@ const StaffingSolutions = () => {
                 <h3 className="text-foreground font-semibold group-hover:text-primary transition-colors mb-2">
                   {industry.name}
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-gray-800">
                   {industry.description}
                 </p>
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl"></div>
@@ -389,7 +389,7 @@ const StaffingSolutions = () => {
                   <h3 className="text-foreground font-semibold group-hover:text-primary transition-colors mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-gray-800">
                     {item.description}
                   </p>
                 </div>
@@ -413,7 +413,7 @@ const StaffingSolutions = () => {
                 <div className="flex items-center justify-center space-x-4">
                   <div className="text-center">
                     <div className="font-semibold text-foreground">Sarah Johnson</div>
-                    <div className="text-sm text-muted-foreground">HR Director, TechCorp Solutions</div>
+                    <div className="text-sm text-gray-800">HR Director, TechCorp Solutions</div>
                   </div>
                 </div>
               </div>
@@ -429,7 +429,7 @@ const StaffingSolutions = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground">
               Ready to Build Your Dream Team?
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-800">
               Let's discuss your staffing needs and find the perfect candidates for your organization.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

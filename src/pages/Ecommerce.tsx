@@ -210,7 +210,7 @@ const Ecommerce = () => {
                 Advanced E-Commerce Platform with
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> AI-Powered Features</span>
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-xl text-gray-800 leading-relaxed">
                 MangosOrange E-Commerce delivers enterprise-grade online retail solutions with complete control over every aspect of your digital storefront. From AI-powered product recommendations to advanced analytics, we provide the tools and capabilities needed to dominate your market and achieve exponential growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -230,7 +230,7 @@ const Ecommerce = () => {
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-secondary rounded-full animate-ping"></div>
                   </div>
                   <h3 className="text-2xl font-bold text-foreground">E-Commerce Ready</h3>
-                  <p className="text-muted-foreground">Complete Control & Management</p>
+                  <p className="text-gray-800">Complete Control & Management</p>
                   <div className="flex justify-center gap-4">
                     <div className="w-3 h-3 bg-primary/60 rounded-full animate-bounce"></div>
                     <div className="w-3 h-3 bg-primary/60 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
@@ -253,7 +253,7 @@ const Ecommerce = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Comprehensive E-Commerce Features
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Access real-time information about product categories with our sophisticated online stock and inventory management system
             </p>
           </div>
@@ -274,14 +274,14 @@ const Ecommerce = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {capability.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {capability.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3 mb-6">
                       {capability.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center gap-3 text-sm text-muted-foreground">
+                        <div key={idx} className="flex items-center gap-3 text-sm text-gray-800">
                           <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
                           {feature}
                         </div>
@@ -306,7 +306,7 @@ const Ecommerce = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Why Choose E-Commerce for Your Business?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               E-commerce provides the most affordable way to reach new markets and grow your business exponentially
             </p>
           </div>
@@ -327,7 +327,7 @@ const Ecommerce = () => {
                     <CardTitle className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                       {benefit.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed mb-4">
+                    <CardDescription className="text-gray-800 leading-relaxed mb-4">
                       {benefit.description}
                     </CardDescription>
                     <div className="grid grid-cols-2 gap-3 mb-4">
@@ -356,7 +356,7 @@ const Ecommerce = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               How We Build Your E-Commerce Success
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Our proven methodology ensures successful e-commerce deployment from concept to ongoing success
             </p>
           </div>
@@ -382,7 +382,7 @@ const Ecommerce = () => {
                     <CardTitle className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                       {process.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed mb-4">
+                    <CardDescription className="text-gray-800 leading-relaxed mb-4">
                       {process.description}
                     </CardDescription>
                     <div className="text-sm text-primary font-medium">
@@ -406,7 +406,7 @@ const Ecommerce = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Our Commitment to Excellence
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We create and preserve lasting connections with our customers through comprehensive e-commerce solutions
             </p>
           </div>
@@ -425,7 +425,7 @@ const Ecommerce = () => {
                       <Icon className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="text-lg font-bold text-foreground mb-2">{highlight.title}</h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed mb-3">{highlight.description}</p>
+                    <p className="text-gray-800 text-sm leading-relaxed mb-3">{highlight.description}</p>
                     <div className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded">{highlight.metric}</div>
                   </CardContent>
                 </Card>
@@ -442,7 +442,7 @@ const Ecommerce = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Industries We Serve
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We manage various domains from different sectors with dynamic e-commerce solutions
             </p>
           </div>
@@ -466,7 +466,7 @@ const Ecommerce = () => {
                           <h3 className="text-lg font-bold text-foreground">{industry.name}</h3>
                           <span className="text-xs font-medium text-secondary bg-secondary/10 px-2 py-1 rounded">{industry.growth}</span>
                         </div>
-                        <p className="text-sm text-muted-foreground">{industry.focus}</p>
+                        <p className="text-sm text-gray-800">{industry.focus}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -484,7 +484,7 @@ const Ecommerce = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Customer Delight Approach
             </h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               Our years of involvement in IT services have given us the ability to comprehend and value the needs of businesses today. We develop dynamic e-commerce websites with W3C Standards and Client Hints Technology, designating a Project Coordinator for comprehensive project information.
             </p>
           </div>
@@ -497,7 +497,7 @@ const Ecommerce = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Dedicated Project Coordination</h3>
-                  <p className="text-muted-foreground">Each project gets a dedicated coordinator providing comprehensive information on tasks, timelines, and deliverables.</p>
+                  <p className="text-gray-800">Each project gets a dedicated coordinator providing comprehensive information on tasks, timelines, and deliverables.</p>
                 </div>
               </div>
               
@@ -507,7 +507,7 @@ const Ecommerce = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">W3C Standards & Technology</h3>
-                  <p className="text-muted-foreground">All our e-commerce solutions follow W3C standards and implement Client Hints Technology for optimal performance.</p>
+                  <p className="text-gray-800">All our e-commerce solutions follow W3C standards and implement Client Hints Technology for optimal performance.</p>
                 </div>
               </div>
               
@@ -517,7 +517,7 @@ const Ecommerce = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Ongoing Support & Maintenance</h3>
-                  <p className="text-muted-foreground">Annual maintenance and consulting services plus regular updates to ensure your e-commerce platform performs optimally.</p>
+                  <p className="text-gray-800">Annual maintenance and consulting services plus regular updates to ensure your e-commerce platform performs optimally.</p>
                 </div>
               </div>
             </div>
@@ -530,7 +530,7 @@ const Ecommerce = () => {
                     <div className="absolute -top-1 -right-1 w-4 h-4 bg-secondary rounded-full animate-pulse"></div>
                   </div>
                   <h3 className="text-2xl font-bold text-foreground">E-Commerce Excellence</h3>
-                  <p className="text-muted-foreground">Complete Development Solutions</p>
+                  <p className="text-gray-800">Complete Development Solutions</p>
                 </div>
               </div>
             </div>
@@ -546,7 +546,7 @@ const Ecommerce = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Advanced E-Commerce Platform
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-gray-800 mb-8">
                 Our e-commerce platform provides complete control over every aspect of your online business, from product management to customer analytics.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
@@ -596,7 +596,7 @@ const Ecommerce = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Data-Driven Business Intelligence
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-gray-800 mb-8">
                 Gain deep insights into your e-commerce performance with advanced analytics, customer behavior tracking, and predictive business intelligence.
               </p>
               <div className="space-y-4">
@@ -610,7 +610,7 @@ const Ecommerce = () => {
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">{item.title}</h4>
-                      <p className="text-sm text-muted-foreground">{item.desc}</p>
+                      <p className="text-sm text-gray-800">{item.desc}</p>
                     </div>
                   </div>
                 ))}

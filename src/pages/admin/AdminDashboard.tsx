@@ -86,7 +86,7 @@ const AdminDashboard = () => {
         {/* Header */}
         <div>
           <h1 className="text-3xl font-bold text-foreground">Dashboard</h1>
-          <p className="text-muted-foreground">
+          <p className="text-gray-800">
             Overview of your career management system
           </p>
         </div>
@@ -100,7 +100,7 @@ const AdminDashboard = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm font-medium text-muted-foreground">
+                      <p className="text-sm font-medium text-gray-800">
                         {stat.title}
                       </p>
                       <p className="text-2xl font-bold text-foreground">
@@ -124,7 +124,7 @@ const AdminDashboard = () => {
           </CardHeader>
           <CardContent>
             {stats.recentApplications.length === 0 ? (
-              <div className="text-center py-8 text-muted-foreground">
+              <div className="text-center py-8 text-gray-800">
                 No recent applications
               </div>
             ) : (
@@ -152,7 +152,7 @@ const AdminDashboard = () => {
                       </p>
 
                       {/* Contact + Date */}
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+                      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-800">
                         <div className="flex items-center gap-1">
                           <Mail className="w-3 h-3" />
                           {applicant.email}

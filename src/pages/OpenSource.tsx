@@ -172,7 +172,7 @@ const OpenSource = () => {
                 Enterprise Open Source
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Solutions</span>
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-xl text-gray-800 leading-relaxed">
                 Harness the power of open source technologies to build scalable, cost-effective, and innovative solutions. 
                 Our expert team specializes in developing, deploying, and maintaining enterprise-grade open source applications 
                 that drive business growth while reducing operational costs.
@@ -188,15 +188,15 @@ const OpenSource = () => {
               <div className="flex items-center gap-8 pt-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">500+</div>
-                  <div className="text-sm text-muted-foreground">Projects Delivered</div>
+                  <div className="text-sm text-gray-800">Projects Delivered</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">50+</div>
-                  <div className="text-sm text-muted-foreground">Open Source Tools</div>
+                  <div className="text-sm text-gray-800">Open Source Tools</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">10+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
+                  <div className="text-sm text-gray-800">Years Experience</div>
                 </div>
               </div>
             </div>
@@ -231,7 +231,7 @@ const OpenSource = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Comprehensive Open Source Services
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               From development to deployment, we provide end-to-end open source solutions 
               tailored to your business requirements and technical specifications.
             </p>
@@ -255,7 +255,7 @@ const OpenSource = () => {
                     <CardTitle className="text-xl group-hover:text-primary transition-colors duration-300">
                       {service.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {service.description}
                     </CardDescription>
                   </CardHeader>
@@ -264,7 +264,7 @@ const OpenSource = () => {
                       {service.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-2 text-sm">
                           <CheckCircle className="w-4 h-4 text-primary" />
-                          <span className="text-muted-foreground">{feature}</span>
+                          <span className="text-gray-800">{feature}</span>
                         </div>
                       ))}
                     </div>
@@ -288,7 +288,7 @@ const OpenSource = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Advanced Open Source Technologies
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Mastery in cutting-edge open source platforms, frameworks, and tools that power 
               modern enterprise applications and digital transformation initiatives.
             </p>
@@ -312,7 +312,7 @@ const OpenSource = () => {
                     <CardTitle className="text-xl group-hover:text-primary transition-colors duration-300">
                       {tech.name}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed mb-4">
+                    <CardDescription className="text-gray-800 leading-relaxed mb-4">
                       {tech.description}
                     </CardDescription>
                     <div className="inline-flex items-center gap-2 bg-primary/5 text-primary px-3 py-1 rounded-full text-sm font-medium">
@@ -334,7 +334,7 @@ const OpenSource = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Recent Open Source Projects
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Showcase of our latest open source implementations and custom solutions
             </p>
           </div>
@@ -350,11 +350,11 @@ const OpenSource = () => {
                     <CardTitle className="text-xl group-hover:text-primary transition-colors duration-300">
                       {project.name}
                     </CardTitle>
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-sm text-gray-800">
                       {project.technology}
                     </div>
                   </div>
-                  <CardDescription className="text-muted-foreground">
+                  <CardDescription className="text-gray-800">
                     {project.description}
                   </CardDescription>
                 </CardHeader>
@@ -376,7 +376,7 @@ const OpenSource = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Why Choose Open Source Solutions?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Discover the strategic advantages and business benefits of adopting open source 
               technologies for your enterprise applications and digital infrastructure.
             </p>
@@ -400,7 +400,7 @@ const OpenSource = () => {
                     <CardTitle className="text-xl group-hover:text-primary transition-colors duration-300 mb-3">
                       {benefit.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed mb-4">
+                    <CardDescription className="text-gray-800 leading-relaxed mb-4">
                       {benefit.description}
                     </CardDescription>
                     <div className="inline-flex items-center gap-2 bg-primary/5 text-primary px-3 py-1 rounded-full text-sm font-medium">

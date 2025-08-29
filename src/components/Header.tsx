@@ -79,13 +79,13 @@ const Header = () => {
                       <div className="row-span-3">
                         <div className="mb-4">
                           <h4 className="text-lg font-semibold text-foreground mb-2">IT Services</h4>
-                          <p className="text-sm text-muted-foreground">Custom web solutions and modern frameworks</p>
+                          <p className="text-sm text-gray-800">Custom web solutions and modern frameworks</p>
                         </div>
                         <div className="grid gap-2">
                           <Link to="/web-development">
                             <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                               <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">Web Development</div>
-                              <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                                 Custom web solutions and modern frameworks
                               </p>
                             </NavigationMenuLink>
@@ -93,7 +93,7 @@ const Header = () => {
                           <Link to="/app-development">
                             <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                               <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">App Development</div>
-                              <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                                 Mobile and desktop applications
                               </p>
                             </NavigationMenuLink>
@@ -101,7 +101,7 @@ const Header = () => {
                           <Link to="/open-source">
                             <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                               <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">Open Source</div>
-                              <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                                 Open source solutions and contributions
                               </p>
                             </NavigationMenuLink>
@@ -109,7 +109,7 @@ const Header = () => {
                           <Link to="/custom-software">
                             <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                               <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">Custom Software</div>
-                              <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                                 Tailored software solutions for your business
                               </p>
                             </NavigationMenuLink>
@@ -117,7 +117,7 @@ const Header = () => {
                           <Link to="/ecommerce">
                             <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                               <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">E-commerce</div>
-                              <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                                 Online store and e-commerce platforms
                               </p>
                             </NavigationMenuLink>
@@ -141,12 +141,12 @@ const Header = () => {
                     <div className="grid w-[350px] gap-3 p-6 bg-background/95 backdrop-blur-md border border-border/50 rounded-xl shadow-xl">
                       <div className="mb-4">
                         <h4 className="text-lg font-semibold text-foreground mb-2">Cloud Infrastructure</h4>
-                        <p className="text-sm text-muted-foreground">Enterprise cloud solutions and management</p>
+                        <p className="text-sm text-gray-800">Enterprise cloud solutions and management</p>
                       </div>
                       <Link to="/cloud-strategy">
                         <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                           <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">Cloud Strategy & Consulting</div>
-                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                             Strategic planning and consulting for cloud adoption
                           </p>
                         </NavigationMenuLink>
@@ -154,7 +154,7 @@ const Header = () => {
                       <Link to="/data-migration">
                         <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                           <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">Data Migration Services</div>
-                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                             Seamless migration of data to cloud platforms
                           </p>
                         </NavigationMenuLink>
@@ -162,7 +162,7 @@ const Header = () => {
                       <Link to="/managed-services">
                         <NavigationMenuLink className="block select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary group">
                           <div className="text-sm font-medium leading-none group-hover:translate-x-1 transition-transform duration-300">Managed Services</div>
-                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          <p className="line-clamp-2 text-sm leading-snug text-gray-800">
                             Complete cloud infrastructure management and support
                           </p>
                         </NavigationMenuLink>

@@ -62,7 +62,7 @@ const ApplicantCard = ({ applicant, onUpdate }: ApplicantCardProps) => {
         <div className="flex items-start justify-between">
           <div>
             <CardTitle className="text-lg">{applicant.name}</CardTitle>
-            <div className="flex items-center gap-4 mt-2 text-sm text-muted-foreground">
+            <div className="flex items-center gap-4 mt-2 text-sm text-gray-800">
               <div className="flex items-center gap-1">
                 <Mail className="w-4 h-4" />
                 <a href={`mailto:${applicant.email}`} className="hover:text-primary">
@@ -97,7 +97,7 @@ const ApplicantCard = ({ applicant, onUpdate }: ApplicantCardProps) => {
       </CardHeader>
       
       <CardContent className="space-y-4">
-        <div className="flex items-center gap-4 text-sm text-muted-foreground">
+        <div className="flex items-center gap-4 text-sm text-gray-800">
           <div className="flex items-center gap-1">
             <Calendar className="w-4 h-4" />
             Applied: {new Date(applicant.appliedAt).toLocaleDateString()}
@@ -115,7 +115,7 @@ const ApplicantCard = ({ applicant, onUpdate }: ApplicantCardProps) => {
         {applicant.coverLetter && (
           <div>
             <div className="text-sm font-medium text-foreground mb-1">Cover Letter:</div>
-            <div className="text-sm text-muted-foreground bg-muted/50 p-3 rounded-lg">
+            <div className="text-sm text-gray-800 bg-muted/50 p-3 rounded-lg">
               {applicant.coverLetter}
             </div>
           </div>
@@ -176,7 +176,7 @@ const ApplicantCard = ({ applicant, onUpdate }: ApplicantCardProps) => {
           applicant.notes && (
             <div className="pt-4 border-t">
               <div className="text-sm font-medium text-foreground mb-1">Notes:</div>
-              <div className="text-sm text-muted-foreground bg-muted/50 p-3 rounded-lg">
+              <div className="text-sm text-gray-800 bg-muted/50 p-3 rounded-lg">
                 {applicant.notes}
               </div>
             </div>

@@ -20,7 +20,7 @@ const CloudStrategy = () => {
               <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-foreground mb-6">
                 Cloud Strategy & Consulting
               </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              <p className="text-lg text-gray-800 leading-relaxed mb-8">
                 At MangosOrange, we offer comprehensive cloud strategy and consulting services to help 
                 businesses navigate their cloud journey effectively. Our services include a thorough cloud readiness 
                 assessment to evaluate your current infrastructure and determine the best path forward. We also provide 
@@ -31,15 +31,15 @@ const CloudStrategy = () => {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-primary" />
-                  <span className="text-muted-foreground">Cloud readiness assessment</span>
+                  <span className="text-gray-800">Cloud readiness assessment</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-primary" />
-                  <span className="text-muted-foreground">Migration planning and execution</span>
+                  <span className="text-gray-800">Migration planning and execution</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-primary" />
-                  <span className="text-muted-foreground">Cloud architecture design</span>
+                  <span className="text-gray-800">Cloud architecture design</span>
                 </li>
               </ul>
             </div>
@@ -65,7 +65,7 @@ const CloudStrategy = () => {
                 <TrendingUp className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Cloud Readiness Assessment</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 We evaluate your current infrastructure and determine the best path forward for your cloud journey.
               </p>
             </div>
@@ -75,7 +75,7 @@ const CloudStrategy = () => {
                 <Zap className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Migration Planning & Execution</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Our team provides detailed migration planning and execution to ensure a smooth transition to the cloud.
               </p>
             </div>
@@ -85,7 +85,7 @@ const CloudStrategy = () => {
                 <Shield className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Cloud Architecture Design</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 We design robust cloud architectures tailored to your business needs, ensuring scalability, security, and optimal performance.
               </p>
             </div>
@@ -99,28 +99,28 @@ const CloudStrategy = () => {
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Expert Consultation</h4>
-                  <p className="text-muted-foreground">Our cloud experts provide strategic guidance tailored to your business objectives.</p>
+                  <p className="text-gray-800">Our cloud experts provide strategic guidance tailored to your business objectives.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.1s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Cost Optimization</h4>
-                  <p className="text-muted-foreground">We help you optimize cloud costs while maximizing performance and efficiency.</p>
+                  <p className="text-gray-800">We help you optimize cloud costs while maximizing performance and efficiency.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.2s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Security First</h4>
-                  <p className="text-muted-foreground">Security and compliance are at the core of our cloud strategy recommendations.</p>
+                  <p className="text-gray-800">Security and compliance are at the core of our cloud strategy recommendations.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: '0.3s'}}>
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Scalable Solutions</h4>
-                  <p className="text-muted-foreground">Our strategies ensure your cloud infrastructure can grow with your business.</p>
+                  <p className="text-gray-800">Our strategies ensure your cloud infrastructure can grow with your business.</p>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const CloudStrategy = () => {
         <div className="container mx-auto text-center">
           <Users className="w-16 h-16 mx-auto mb-6 text-primary" />
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
             Let's discuss how our cloud strategy and consulting services can accelerate your digital transformation.
           </p>
           <Link to="/contact">

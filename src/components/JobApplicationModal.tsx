@@ -200,17 +200,17 @@ const JobApplicationModal = ({ job, open, onClose }: JobApplicationModalProps) =
                       <div className="text-sm font-medium text-foreground">
                         {resumeFile.name}
                       </div>
-                      <div className="text-xs text-muted-foreground">
+                      <div className="text-xs text-gray-800">
                         Click to change file
                       </div>
                     </>
                   ) : (
                     <>
-                      <Upload className="w-8 h-8 text-muted-foreground" />
+                      <Upload className="w-8 h-8 text-gray-800" />
                       <div className="text-sm font-medium text-foreground">
                         Upload your resume
                       </div>
-                      <div className="text-xs text-muted-foreground">
+                      <div className="text-xs text-gray-800">
                         PDF, DOC, or DOCX (max 5MB)
                       </div>
                     </>

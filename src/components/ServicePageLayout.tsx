@@ -38,7 +38,7 @@ const ServicePageLayout = ({ title, tagline, heroImage, description, steps, bene
             <h1 className="text-4xl md:text-6xl font-bold leading-tight text-foreground">
               {title}
             </h1>
-            <p className="text-xl text-muted-foreground mt-4">
+            <p className="text-xl text-gray-800 mt-4">
               {tagline}
             </p>
             <div className="mt-8">
@@ -56,7 +56,7 @@ const ServicePageLayout = ({ title, tagline, heroImage, description, steps, bene
       {/* Body */}
       <section ref={bodyRef} className={`py-16 px-4 container mx-auto max-w-6xl fade-up ${bodyVisible ? 'visible' : ''}`}>
         {/* Description */}
-        <article className="prose prose-invert max-w-none text-muted-foreground">
+        <article className="prose prose-invert max-w-none text-gray-800">
           {description}
         </article>
 
@@ -71,7 +71,7 @@ const ServicePageLayout = ({ title, tagline, heroImage, description, steps, bene
                     <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-primary-glow text-primary-foreground flex items-center justify-center font-bold">{i + 1}</div>
                     <CardTitle className="mt-4 text-foreground">{s.title}</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-sm text-muted-foreground">{s.description}</CardContent>
+                  <CardContent className="text-sm text-gray-800">{s.description}</CardContent>
                 </Card>
               ))}
             </div>
@@ -84,7 +84,7 @@ const ServicePageLayout = ({ title, tagline, heroImage, description, steps, bene
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Benefits</h2>
             <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {benefits.map((b, i) => (
-                <li key={i} className="flex items-start gap-3 text-muted-foreground">
+                <li key={i} className="flex items-start gap-3 text-gray-800">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5" />
                   <span>{b}</span>
                 </li>
@@ -103,7 +103,7 @@ const ServicePageLayout = ({ title, tagline, heroImage, description, steps, bene
                   <CardHeader>
                     <CardTitle className="text-foreground">{c.title}</CardTitle>
                   </CardHeader>
-                  <CardContent className="space-y-2 text-muted-foreground">
+                  <CardContent className="space-y-2 text-gray-800">
                     <p className="font-medium text-foreground">Outcome: {c.result}</p>
                     <p>{c.description}</p>
                   </CardContent>

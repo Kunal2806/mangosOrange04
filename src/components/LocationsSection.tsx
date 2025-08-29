@@ -31,7 +31,7 @@ export default function LocationsSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Our <span className="text-primary">Presence</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-gray-800 max-w-2xl mx-auto">
             We're present across major Indian cities, delivering exceptional IT services 
             and staffing solutions with deep local market knowledge.
           </p>
@@ -66,7 +66,7 @@ export default function LocationsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-2 text-sm text-muted-foreground bg-accent/30 px-4 py-2 rounded-full">
+          <div className="inline-flex items-center space-x-2 text-sm text-gray-800 bg-accent/30 px-4 py-2 rounded-full">
             <MapPin className="h-4 w-4 text-primary" />
             <span>Expanding soon to Mumbai, Delhi, and Gurgaon</span>
           </div>

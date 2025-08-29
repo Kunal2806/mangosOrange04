@@ -140,7 +140,7 @@ const WebDevelopment = () => {
                   Custom Web Solutions & 
                   <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Modern Development</span>
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
+                <p className="text-xl text-gray-800 leading-relaxed">
                   We specialize in creating web-based solutions focused on user needs. Our natural ability to combine appropriate strategy, technology, and design guarantees solutions that exceed client standards. Build powerful, scalable web applications with cutting-edge technologies.
                 </p>
                 <div className="space-y-4">
@@ -186,7 +186,7 @@ const WebDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Comprehensive Web Development Services
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We provide a variety of services to our clients in the online web arena, spanning the entire development and design process with cutting-edge approaches.
             </p>
           </div>
@@ -210,14 +210,14 @@ const WebDevelopment = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {service.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {service.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <li key={idx} className="flex items-center gap-2 text-sm text-gray-800">
                           <CheckCircle className="w-4 h-4 text-primary" />
                           {feature}
                         </li>
@@ -239,7 +239,7 @@ const WebDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               How We Work
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Our web development process includes developing comprehensive strategy, planning design workshops, building website maps, and creating dynamic user interfaces.
             </p>
           </div>
@@ -268,14 +268,14 @@ const WebDevelopment = () => {
                     <CardTitle className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
                       {process.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed text-sm">
+                    <CardDescription className="text-gray-800 leading-relaxed text-sm">
                       {process.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-1">
                       {process.details.map((detail, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-xs text-muted-foreground">
+                        <li key={idx} className="flex items-center gap-2 text-xs text-gray-800">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
                           {detail}
                         </li>
@@ -297,7 +297,7 @@ const WebDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Modern Technologies & Frameworks
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We implement the most cutting-edge web development approaches using modern tools and frameworks for robust, scalable solutions.
             </p>
           </div>
@@ -326,7 +326,7 @@ const WebDevelopment = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {tech.name}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {tech.description}
                     </CardDescription>
                   </CardHeader>
@@ -345,7 +345,7 @@ const WebDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
               Creating Lasting Connections
             </h2>
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-xl text-gray-800 leading-relaxed mb-8">
               We create and preserve lasting connections with our customers. We promise to provide you with online solutions that are incredibly useful. We can manage various domains from various sectors thanks to our capabilities. We develop dynamic websites and web applications with W3C Standards and Client Hints Technology.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -354,21 +354,21 @@ const WebDevelopment = () => {
                   <Target className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Project Coordination</h3>
-                <p className="text-sm text-muted-foreground">Dedicated Project Coordinator for comprehensive project information and task management</p>
+                <p className="text-sm text-gray-800">Dedicated Project Coordinator for comprehensive project information and task management</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-glow rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <Share2 className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Multi-Domain Expertise</h3>
-                <p className="text-sm text-muted-foreground">Managing various domains from different sectors with specialized knowledge</p>
+                <p className="text-sm text-gray-800">Managing various domains from different sectors with specialized knowledge</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-glow rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <Settings className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Annual Maintenance</h3>
-                <p className="text-sm text-muted-foreground">Ongoing maintenance, consulting, and support for optimal website performance</p>
+                <p className="text-sm text-gray-800">Ongoing maintenance, consulting, and support for optimal website performance</p>
               </div>
             </div>
           </div>
@@ -382,7 +382,7 @@ const WebDevelopment = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground">
               Ready to Transform Your Digital Presence?
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-800">
               Let's discuss your project and create a web solution that drives results for your business. Complete our request information form and our consulting representative will get in touch with you shortly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -396,15 +396,15 @@ const WebDevelopment = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 pt-12 border-t border-border/50">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary mb-2">100+</div>
-                <div className="text-sm text-muted-foreground">Websites Delivered</div>
+                <div className="text-sm text-gray-800">Websites Delivered</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary mb-2">99%</div>
-                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                <div className="text-sm text-gray-800">Client Satisfaction</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">Support Available</div>
+                <div className="text-sm text-gray-800">Support Available</div>
               </div>
             </div>
           </div>

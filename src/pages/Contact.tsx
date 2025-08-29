@@ -77,7 +77,7 @@ export default function Contact() {
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
               Get In <span className="text-primary">Touch</span>
             </h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-gray-800 max-w-2xl mx-auto">
               Ready to transform your business with the right technology and talent? 
               Let's start a conversation about how we can help you succeed.
             </p>
@@ -241,7 +241,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="text-base font-semibold text-primary mb-1">Corp. Address</h3>
-                        <p className="text-muted-foreground text-xs leading-relaxed">
+                        <p className="text-gray-800 text-xs leading-relaxed">
                           H-87 Sector-63 Noida U.P 201301
                         </p>
                       </div>
@@ -260,7 +260,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="text-base font-semibold text-primary mb-1">Email Us</h3>
-                        <p className="text-muted-foreground text-xs">
+                        <p className="text-gray-800 text-xs">
                           info@mangosorange.com
                         </p>
                       </div>
@@ -279,7 +279,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="text-base font-semibold text-primary mb-1">Call Us</h3>
-                        <p className="text-muted-foreground text-xs">
+                        <p className="text-gray-800 text-xs">
                           +91-120-416 4821
                         </p>
                       </div>

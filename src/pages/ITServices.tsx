@@ -129,7 +129,7 @@ const ITServices = () => {
                   IT Services for Modern Enterprises
                   <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> — Strategy to Scale</span>
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
+                <p className="text-xl text-gray-800 leading-relaxed">
                   We deliver end-to-end software engineering—from discovery and design to build, deploy, and manage. Drawing on the reference blueprint, we’ve elevated every service with enterprise-grade practices and measurable outcomes.
                 </p>
                 <div className="space-y-4">
@@ -186,7 +186,7 @@ const ITServices = () => {
                     <Icon className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <div className="text-3xl font-bold text-foreground mb-2">{stat.value}</div>
-                  <div className="text-muted-foreground">{stat.label}</div>
+                  <div className="text-gray-800">{stat.label}</div>
                 </div>
               );
             })}
@@ -201,7 +201,7 @@ const ITServices = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Our Services
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We are constantly upgrading our services and our goal is to make the service standards to the levels to which you can expect us to perform when delivering our services.
             </p>
           </div>
@@ -236,7 +236,7 @@ const ITServices = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {service.title}
                     </CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
+                    <CardDescription className="text-gray-800 leading-relaxed">
                       {service.description}
                     </CardDescription>
                   </CardHeader>
@@ -244,7 +244,7 @@ const ITServices = () => {
                   <CardContent>
                     <ul className="space-y-2 mb-6">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <li key={idx} className="flex items-center gap-2 text-sm text-gray-800">
                           <CheckCircle className="w-4 h-4 text-primary" />
                           {feature}
                         </li>
@@ -275,7 +275,7 @@ const ITServices = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-foreground">
               Ready to Transform Your Business?
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-800">
               Let's discuss how our IT services can help accelerate your digital transformation 
               and drive your business forward.
             </p>

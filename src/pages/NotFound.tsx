@@ -20,7 +20,7 @@ const NotFound = () => {
       <div className="page-top-spacing flex items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4 text-foreground">404</h1>
-          <p className="text-xl text-muted-foreground mb-4">Oops! Page not found</p>
+          <p className="text-xl text-gray-800 mb-4">Oops! Page not found</p>
           <Button asChild>
             <a href="/">Return to Home</a>
           </Button>

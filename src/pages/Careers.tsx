@@ -118,26 +118,26 @@ const Careers = () => {
               Join Our
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Amazing Team</span>
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
               Build the future of technology with us. We're looking for passionate individuals 
               who want to make a real impact in the world of IT services and staffing solutions.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Team Members</div>
+                <div className="text-sm text-gray-800">Team Members</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">10+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-gray-800">Years Experience</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">500+</div>
-                <div className="text-sm text-muted-foreground">Projects Delivered</div>
+                <div className="text-sm text-gray-800">Projects Delivered</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">100+</div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
+                <div className="text-sm text-gray-800">Happy Clients</div>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ const Careers = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                 Current Openings
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-gray-800 max-w-2xl mx-auto">
                 Explore exciting opportunities to grow your career with us
               </p>
             </div>
@@ -161,7 +161,7 @@ const Careers = () => {
                 <CardContent className="p-4">
                   <div className="flex flex-col lg:flex-row gap-4">
                     <div className="relative flex-1">
-                      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-800" />
                       <Input
                         placeholder="Search jobs..."
                         value={searchTerm}
@@ -214,11 +214,11 @@ const Careers = () => {
               ) : filteredJobs.length === 0 ? (
                 <Card>
                   <CardContent className="p-12 text-center">
-                    <CalendarClock className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
+                    <CalendarClock className="w-12 h-12 text-gray-800 mx-auto mb-4" />
                     <h3 className="text-lg font-medium text-foreground mb-2">
                       {jobs.length === 0 ? 'No openings right now' : 'No jobs match your filters'}
                     </h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-800">
                       {jobs.length === 0 
                         ? 'Check back soon—we update this page regularly when new positions go live.'
                         : 'Try adjusting your search or filters to find more opportunities.'
@@ -245,7 +245,7 @@ const Careers = () => {
                                 {job.type}
                               </Badge>
                             </div>
-                            <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                            <div className="flex items-center gap-4 text-sm text-gray-800">
                               <span>{job.department}</span>
                               <span>•</span>
                               <div className="flex items-center gap-1">
@@ -271,12 +271,12 @@ const Careers = () => {
                       
                       <CardContent className="space-y-4">
                         <div 
-                          className="text-sm text-muted-foreground line-clamp-3"
+                          className="text-sm text-gray-800 line-clamp-3"
                           dangerouslySetInnerHTML={{ __html: job.description }}
                         />
                         
                         <div className="flex items-center justify-between pt-4 border-t border-border">
-                          <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                          <div className="flex items-center gap-1 text-sm text-gray-800">
                             <Clock className="w-3 h-3" />
                             Apply by {new Date(job.deadline).toLocaleDateString()}
                           </div>
@@ -307,7 +307,7 @@ const Careers = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                 Why Work With Us?
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-gray-800 max-w-2xl mx-auto">
                 We build reliable, human-centered software and cloud solutions in a supportive environment
               </p>
             </div>
@@ -328,7 +328,7 @@ const Careers = () => {
                       <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                         {benefit.title}
                       </h3>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-gray-800">
                         {benefit.description}
                       </p>
                     </CardContent>
@@ -344,19 +344,19 @@ const Careers = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Strong fundamentals in your craft (engineering, design, product, or operations)</span>
+                    <span className="text-gray-800">Strong fundamentals in your craft (engineering, design, product, or operations)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Clear communication and a collaborative mindset</span>
+                    <span className="text-gray-800">Clear communication and a collaborative mindset</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Pragmatism, curiosity, and a focus on outcomes</span>
+                    <span className="text-gray-800">Pragmatism, curiosity, and a focus on outcomes</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Passion for technology and continuous learning</span>
+                    <span className="text-gray-800">Passion for technology and continuous learning</span>
                   </li>
                 </ul>
               </div>
@@ -366,19 +366,19 @@ const Careers = () => {
                 <ol className="space-y-3">
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center text-primary text-sm font-medium">1</div>
-                    <span className="text-muted-foreground">Application review and initial screening</span>
+                    <span className="text-gray-800">Application review and initial screening</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center text-primary text-sm font-medium">2</div>
-                    <span className="text-muted-foreground">Intro chat about your goals and experience</span>
+                    <span className="text-gray-800">Intro chat about your goals and experience</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center text-primary text-sm font-medium">3</div>
-                    <span className="text-muted-foreground">Technical/role-focused conversation</span>
+                    <span className="text-gray-800">Technical/role-focused conversation</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center text-primary text-sm font-medium">4</div>
-                    <span className="text-muted-foreground">Final culture fit and team conversation</span>
+                    <span className="text-gray-800">Final culture fit and team conversation</span>
                   </li>
                 </ol>
               </div>

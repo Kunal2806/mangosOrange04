@@ -24,7 +24,7 @@ const StaffingIncludesSection = () => {
             It Includes
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground">Staffing Services Included</h2>
-          <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
+          <p className="text-gray-800 mt-3 max-w-2xl mx-auto">
             Explore our comprehensive offerings designed to fit every hiring model and timeline.
           </p>
         </div>
@@ -41,7 +41,7 @@ const StaffingIncludesSection = () => {
                     </div>
                     <CardTitle className="text-xl text-foreground group-hover:text-primary transition-colors">{s.title}</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-muted-foreground flex items-end justify-between">
+                  <CardContent className="text-gray-800 flex items-end justify-between">
                     <span>{s.description}</span>
                     <Button variant="ghost" className="group-hover:translate-x-1 transition-transform" aria-hidden>
                       <ArrowRight className="w-5 h-5" />

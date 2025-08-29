@@ -132,7 +132,7 @@ const AdminJobs = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-foreground">Job Postings</h1>
-            <p className="text-muted-foreground">
+            <p className="text-gray-800">
               Manage your job postings and internship opportunities
             </p>
           </div>
@@ -147,7 +147,7 @@ const AdminJobs = () => {
           <CardContent className="p-4">
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="relative flex-1">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-800" />
                 <Input
                   placeholder="Search jobs..."
                   value={searchTerm}
@@ -178,11 +178,11 @@ const AdminJobs = () => {
         ) : filteredJobs.length === 0 ? (
           <Card>
             <CardContent className="p-12 text-center">
-              <Briefcase className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
+              <Briefcase className="w-12 h-12 text-gray-800 mx-auto mb-4" />
               <h3 className="text-lg font-medium text-foreground mb-2">
                 No job postings found
               </h3>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-gray-800 mb-4">
                 {searchTerm || statusFilter !== 'all' 
                   ? 'Try adjusting your search or filters'
                   : 'Get started by creating your first job posting'
@@ -209,12 +209,12 @@ const AdminJobs = () => {
                           {job.status}
                         </Badge>
                         {!job.isVisible && (
-                          <Badge variant="outline" className="text-muted-foreground">
+                          <Badge variant="outline" className="text-gray-800">
                             Hidden
                           </Badge>
                         )}
                       </div>
-                      <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                      <div className="flex items-center gap-4 text-sm text-gray-800">
                         <span>{job.department}</span>
                         <span>•</span>
                         <span>{job.type}</span>
@@ -254,7 +254,7 @@ const AdminJobs = () => {
                 </CardHeader>
                 
                 <CardContent className="space-y-4">
-                  <div className="flex items-center gap-6 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-6 text-sm text-gray-800">
                     <div className="flex items-center gap-1">
                       <Users className="w-4 h-4" />
                       {job.applicantCount || 0} applicants
@@ -266,7 +266,7 @@ const AdminJobs = () => {
                   </div>
                   
                   <div 
-                    className="text-sm text-muted-foreground line-clamp-2"
+                    className="text-sm text-gray-800 line-clamp-2"
                     dangerouslySetInnerHTML={{ __html: job.description }}
                   />
                 </CardContent>

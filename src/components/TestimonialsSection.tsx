@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
             What Our
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Clients Say</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 max-w-3xl mx-auto">
             Don't just take our word for it. Hear from the companies and leaders who trust 
             MangosOrange with their most critical technology and talent needs.
           </p>
@@ -93,7 +93,7 @@ const TestimonialsSection = () => {
                 
                 <div className="relative mb-6">
                   <Quote className="absolute -top-2 -left-2 w-8 h-8 text-primary/20" />
-                  <p className="text-muted-foreground leading-relaxed pl-6">
+                  <p className="text-gray-800 leading-relaxed pl-6">
                     "{testimonial.quote}"
                   </p>
                 </div>
@@ -104,7 +104,7 @@ const TestimonialsSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">{testimonial.author}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                    <div className="text-sm text-gray-800">{testimonial.role}</div>
                     <div className="text-sm text-primary font-medium">{testimonial.company}</div>
                   </div>
                 </div>
@@ -119,21 +119,21 @@ const TestimonialsSection = () => {
             <div className="flex items-center justify-center gap-8 mb-6">
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary">98%</div>
-                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                <div className="text-sm text-gray-800">Client Satisfaction</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-secondary">4.9/5</div>
-                <div className="text-sm text-muted-foreground">Average Rating</div>
+                <div className="text-sm text-gray-800">Average Rating</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Enterprise Clients</div>
+                <div className="text-sm text-gray-800">Enterprise Clients</div>
               </div>
             </div>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Ready to Join Our Success Stories?
             </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            <p className="text-gray-800 mb-6 max-w-2xl mx-auto">
               Let's discuss how MangosOrange can help you achieve your technology and talent goals.
             </p>
             <button className="px-8 py-4 bg-gradient-to-r from-primary to-primary-glow text-primary-foreground rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">

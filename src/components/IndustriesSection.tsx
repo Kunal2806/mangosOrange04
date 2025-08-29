@@ -77,7 +77,7 @@ const IndustriesSection = () => {
             Industries We
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Serve</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 max-w-3xl mx-auto">
             Our deep industry expertise helps us understand your unique challenges and deliver 
             solutions that drive real business results across diverse sectors.
           </p>
@@ -104,7 +104,7 @@ const IndustriesSection = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                  <p className="text-gray-800 text-sm leading-relaxed mb-4">
                     {industry.description}
                   </p>
                   <div className="text-xs font-medium text-primary bg-primary/10 px-3 py-1 rounded-full inline-block">
@@ -122,7 +122,7 @@ const IndustriesSection = () => {
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Don't See Your Industry?
             </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            <p className="text-gray-800 mb-6 max-w-2xl mx-auto">
               We work with companies across all sectors. Our adaptable approach and 
               diverse talent pool means we can support your unique industry requirements.
             </p>

@@ -8,7 +8,7 @@ const AdminSettings = () => {
       <div className="space-y-6">
         <div>
           <h1 className="text-3xl font-bold text-foreground">Settings</h1>
-          <p className="text-muted-foreground">
+          <p className="text-gray-800">
             Manage your admin panel configuration
           </p>
         </div>
@@ -22,7 +22,7 @@ const AdminSettings = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Manage admin and recruiter accounts. This feature will be available in a future update.
               </p>
             </CardContent>
@@ -36,7 +36,7 @@ const AdminSettings = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Configure email notifications for new applications and system updates. Coming soon.
               </p>
             </CardContent>
@@ -50,7 +50,7 @@ const AdminSettings = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-gray-800">
                 Security settings and access control management. Feature in development.
               </p>
             </CardContent>

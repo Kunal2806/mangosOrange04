@@ -80,7 +80,7 @@ export default function ReachUsSection() {
                           transition-colors duration-300">
                           {item.title}
                         </h3>
-                        <p className="text-muted-foreground text-sm font-medium group-hover:text-foreground 
+                        <p className="text-gray-800 text-sm font-medium group-hover:text-foreground 
                           transition-colors duration-300">
                           {item.info}
                         </p>

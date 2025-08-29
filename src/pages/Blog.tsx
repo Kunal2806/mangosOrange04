@@ -62,7 +62,7 @@ const Blog = () => {
       <main className="container mx-auto px-4 pt-28 pb-16">
         <header className="mb-10 text-center animate-enter">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground">MangosOrange Blog & Gallery</h1>
-          <p className="mt-3 text-muted-foreground max-w-3xl mx-auto">
+          <p className="mt-3 text-gray-800 max-w-3xl mx-auto">
             Offer letter distribution by Honourable Chief Minister of Uttarakhand Sh. Pushkar Singh Dhami Ji at Bageshwar District. MangosOrange Services Pvt. Ltd. recruited 70 candidates and contributed to employment generation for the state of Uttarakhand.
           </p>
         </header>
@@ -80,7 +80,7 @@ const Blog = () => {
                 loading="lazy"
                 className="w-full h-64 object-cover transition-transform duration-500 hover:scale-105"
               />
-              <figcaption className="p-3 text-sm text-muted-foreground">{img.caption}</figcaption>
+              <figcaption className="p-3 text-sm text-gray-800">{img.caption}</figcaption>
             </figure>
           ))}
         </section>
